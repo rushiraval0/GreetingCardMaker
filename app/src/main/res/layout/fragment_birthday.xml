@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Wedding">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:id="@+id/wishLine"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="cursive"
+        android:text="Wish you a very \nHappy Birthday!"
+        android:layout_centerInParent="true"
+        android:textSize="50sp"
+        android:textStyle="italic|bold"
+        android:textColor="#FF7E42"
+        android:textAlignment="center"
+        />
+
+    <TextView
+        android:id="@+id/fromLine"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="cursive"
+        android:layout_below="@+id/wishLine"
+        android:text="Lorem Ipsum"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="50dp"
+        android:textSize="30sp"
+        android:textStyle="italic|bold"
+        android:textColor="#5C2500"
+        android:textAlignment="center"
+        />
+
+
+</RelativeLayout>

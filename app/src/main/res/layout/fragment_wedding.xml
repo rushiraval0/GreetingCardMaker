@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Wedding">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:id="@+id/punchLine"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="cursive"
+        android:text="We are inviting you\nto beautify our wedding"
+        android:layout_centerInParent="true"
+        android:textSize="50sp"
+        android:textStyle="italic|bold"
+        android:textColor="#FF69B4"
+        android:textAlignment="center"
+        />
+
+    <TextView
+        android:id="@+id/coupleLine"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="cursive"
+        android:layout_below="@+id/punchLine"
+        android:text="Lorem and Ipsum"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="50dp"
+        android:textSize="30sp"
+        android:textStyle="italic|bold"
+        android:textColor="#653364"
+        android:textAlignment="center"
+        />
+
+
+</RelativeLayout>
